@@ -5,7 +5,7 @@ from .models import *
 import uuid 
 from .utils import *
 # Create your views here.
-def app(request):
+def home(request):
     if request.method == 'POST':
         email = request.POST.get('email')
         password = request.POST.get('password')
