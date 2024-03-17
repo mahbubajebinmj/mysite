@@ -1,0 +1,22 @@
+<!doctype html>
+<html long="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <title>hello</title>
+    </head>    
+
+
+<body>
+
+<div class="container nt-5 pt-5">
+    <form method="post">
+        {% csrf_token %}
+        <input class= "form-control" name="email">
+        <input class= "form-control" name="password">
+        <button class="btn btn-success nt-5">Submit</button>
+    </form>   
+</div>
+</body>
